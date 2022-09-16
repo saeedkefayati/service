@@ -1,0 +1,15 @@
+@font-face {
+	font-family: Sahel-VF;
+	src: url('https://cdn.jsdelivr.net/npm/sahel-font@3.4.0/dist/Sahel-VF.woff2');
+}
+html,
+body {
+	font-family: Sahel-VF, var(--bs-font-sans-serif);
+	font-variation-settings: 'wght' var(--bs-body-font-weight);
+}
+body {
+	overflow-x: hidden;
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}

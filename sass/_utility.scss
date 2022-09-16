@@ -1,0 +1,56 @@
+.fw-lighter {
+	font-variation-settings: 'wght' 200;
+}
+.fw-light,
+.lead,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+	font-variation-settings: 'wght' 300;
+}
+.fw-normal,
+.form-control,
+.form-select,
+.input-group-text,
+.btn,
+.btn-link,
+.dropdown-item,
+.tooltip,
+.popover {
+	font-variation-settings: 'wght' 400;
+}
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+	font-variation-settings: 'wght' 500;
+}
+.fw-bold,
+dt,
+kbd kbd,
+.badge,
+.alert-link {
+	font-variation-settings: 'wght' 700;
+}
+b,
+strong,
+.fw-bolder {
+	font-variation-settings: 'wght' 800;
+}
+.line-clamp-1 {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+}
