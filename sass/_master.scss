@@ -39,6 +39,11 @@ main {
 	}
 }
 // rules
+// blog
+.blog-top {
+	top: calc(56px + 1.5rem);
+}
+// blog
 .breadcrumb-custom {
 	background-color: var(--bs-gray-200);
 }
