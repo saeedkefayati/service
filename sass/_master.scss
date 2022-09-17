@@ -13,3 +13,22 @@ body {
 	display: grid;
 	grid-template-rows: auto 1fr auto;
 }
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+// contact page
+.contact-map {
+	height: 300px;
+	@media screen and (min-width: 768px) {
+		height: 450px;
+	}
+	@media screen and (min-width: 992px) {
+		height: 600px;
+	}
+}
+.contact-detail {
+	margin-top: -9rem;
+}
+// contact page

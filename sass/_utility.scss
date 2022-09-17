@@ -1,5 +1,6 @@
 .fw-lighter {
 	font-variation-settings: 'wght' 200;
+	font-weight: unset !important;
 }
 .fw-light,
 .lead,
@@ -10,6 +11,7 @@
 .display-5,
 .display-6 {
 	font-variation-settings: 'wght' 300;
+	font-weight: unset !important;
 }
 .fw-normal,
 .form-control,
@@ -21,6 +23,7 @@
 .tooltip,
 .popover {
 	font-variation-settings: 'wght' 400;
+	font-weight: unset !important;
 }
 h6,
 .h6,
@@ -35,6 +38,11 @@ h2,
 h1,
 .h1 {
 	font-variation-settings: 'wght' 500;
+	font-weight: unset !important;
+}
+.fw-semibold {
+	font-variation-settings: 'wght' 600;
+	font-weight: unset !important;
 }
 .fw-bold,
 dt,
@@ -42,11 +50,13 @@ kbd kbd,
 .badge,
 .alert-link {
 	font-variation-settings: 'wght' 700;
+	font-weight: unset !important;
 }
 b,
 strong,
 .fw-bolder {
 	font-variation-settings: 'wght' 800;
+	font-weight: unset !important;
 }
 .line-clamp-1 {
 	overflow: hidden;
