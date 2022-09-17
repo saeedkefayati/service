@@ -78,29 +78,29 @@ ol {
 
 //scrollbar
 
-@media screen and (min-width: 991px) {
-	* {
-		scrollbar-color: var(--bs-primary) var(--bs-white);
-		scrollbar-width: thin;
-	}
+// @media screen and (min-width: 991px) {
+// 	* {
+// 		scrollbar-color: var(--bs-primary) var(--bs-white);
+// 		scrollbar-width: thin;
+// 	}
 
-	*::-webkit-scrollbar {
-		width: 0.5rem;
+// 	*::-webkit-scrollbar {
+// 		width: 0.5rem;
 
-		@media only screen and (max-width: 991px) {
-			width: 0.25rem;
-		}
-	}
+// 		@media only screen and (max-width: 991px) {
+// 			width: 0.25rem;
+// 		}
+// 	}
 
-	*::-webkit-scrollbar-track {
-		background: var(--bs-white);
-	}
+// 	*::-webkit-scrollbar-track {
+// 		background: var(--bs-white);
+// 	}
 
-	*::-webkit-scrollbar-thumb {
-		background: var(--bs-primary);
-	}
+// 	*::-webkit-scrollbar-thumb {
+// 		background: var(--bs-primary);
+// 	}
 
-	*::-webkit-scrollbar-thumb:hover {
-		background: var(--bs-black);
-	}
-}
+// 	*::-webkit-scrollbar-thumb:hover {
+// 		background: var(--bs-black);
+// 	}
+// }
