@@ -32,3 +32,13 @@ main {
 	margin-top: -9rem;
 }
 // contact page
+// rules
+.rules-list {
+	::marker {
+		font-size: calc(1.3rem + 0.6vw);
+	}
+}
+// rules
+.breadcrumb-custom {
+	background-color: var(--bs-gray-200);
+}
