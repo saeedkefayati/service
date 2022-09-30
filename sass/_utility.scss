@@ -1,8 +1,3 @@
-.fw-lighter {
-	font-variation-settings: 'wght' 200;
-	font-weight: unset !important;
-}
-.fw-light,
 .lead,
 .display-1,
 .display-2,
@@ -13,7 +8,6 @@
 	font-variation-settings: 'wght' 300;
 	font-weight: unset !important;
 }
-.fw-normal,
 .form-control,
 .form-select,
 .input-group-text,
@@ -40,11 +34,7 @@ h1,
 	font-variation-settings: 'wght' 500;
 	font-weight: unset !important;
 }
-.fw-semibold {
-	font-variation-settings: 'wght' 600;
-	font-weight: unset !important;
-}
-.fw-bold,
+
 dt,
 kbd kbd,
 .badge,
@@ -53,8 +43,7 @@ kbd kbd,
 	font-weight: unset !important;
 }
 b,
-strong,
-.fw-bolder {
+strong {
 	font-variation-settings: 'wght' 800;
 	font-weight: unset !important;
 }
@@ -71,6 +60,16 @@ ol {
 }
 .object-fit-cover {
 	object-fit: cover;
+}
+.accordion-item {
+	margin-block: 1rem;
+}
+.accordion-item,
+.accordion-button {
+	border-top-left-radius: 0.375rem !important;
+	border-top-right-radius: 0.375rem !important;
+	border-bottom-right-radius: 0.375rem !important;
+	border-bottom-left-radius: 0.375rem !important;
 }
 
 //selection
