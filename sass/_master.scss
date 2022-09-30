@@ -17,6 +17,9 @@ main {
 	flex-grow: 1;
 	background-color: var(--bs-light);
 }
+.header {
+	z-index: 1030;
+}
 // index page
 .swiper {
 	width: 100%;
